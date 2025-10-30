@@ -11,8 +11,8 @@ type Client {
   name: String
   age: Int
 
-  documents: [Document]
-  relatives: [Relative]
+  documents: [Document!]!
+  relatives: [Relative!]!
 }
 
 type Document {
